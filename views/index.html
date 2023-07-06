@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <title>Ascii-art Generator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+</head>
+<body>
+  <!-- Page title -->
+  <h1>Ascii-art Generator</h1>
+
+  <!-- Form for generating ASCII art -->
+  <form method="POST" action="/ascii-art">
+    <br><br>
+
+    <!-- Text input area -->
+    <textarea id="textbox" name="textbox" placeholder="Enter text here" rows="4">{{.Str}}</textarea>
+    <br>
+
+    <!-- Select banner style -->
+    <label for="style">Banner:</label>
+    <select id="style" name="style">
+      {{if .ShowOutput}}<option value="{{.Font}}"> Recent: {{.Font}}</option>{{end}}
+      <option value="standard">Standard</option>
+      <option value="shadow">Shadow</option>
+      <option value="thinkertoy">Thinkertoy</option>
+      <option value="doom">Doom</option>
+      <option value="extrafont">extrafont</option>
+    </select>
+
+    <!-- Color picker -->
+    <input type="color" id="color" name="color" class="color-picker" value="{{.Color}}">
+    <br>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+    <br>
+  </form>
+
+  <!-- Display the generated ASCII art or error message -->
+  {{if .ShowOutput}}
+  <pre>
+  <span style="color:{{.Color}}">{{.Output}}</span>
+  </pre>
+  <form><a href="data:text/plain;charset=utf-8,{{.Output}}" download="ascii-art-output.txt" class="download-btn">Download</a></form>
+  {{else}}
+  <pre> <p>No output to show.</p></pre>
+  {{end}}
+</body>
+</html>
