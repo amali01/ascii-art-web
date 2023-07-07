@@ -9,13 +9,13 @@ Users are given these options: Banners, Colors,and Download of the Ascii Art.
 Clone the project
 
 ```bash
-git clone https://learn.reboot01.com/git/emahfood/ascii-art-web-stylize.git
+git clone https://learn.reboot01.com/git/amali/ascii-art-web-stylize.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd ascii-art-web
+  cd ascii-art-web-stylize
 ```
 
 **Example how to run the program:**
