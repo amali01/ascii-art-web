@@ -1,6 +1,6 @@
 FROM golang:1.20
 
-COPY ascii-art-web-dockerize /ascii-art-web-dockerize
+COPY . /ascii-art-web-dockerize
 
 WORKDIR /ascii-art-web-dockerize
 
