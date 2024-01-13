@@ -1,7 +1,12 @@
-## ASCII Art Web
-Welcome to our ASCII Art Web Generator! 
+<h1 align="center">ASCII Art Web</h1>
+<p align="center">
+    <img src="./views/logo1.png" alt="logo1" hight="500px" width="500px" />
 
-This web application empowers users to create an ASCII art from their input. Unleash your creativity by providing input using ASCII characters, and watch as the program transforms it into visually appealing designs. Our user-friendly interface offers exciting options, including Banners, Colors, and the ability to conveniently download your ASCII art. Embrace the world of text-based artistry and bring your imagination to life with our ASCII Art Web Generator!
+</p>
+<h2 >About The Project</h2>
+<h4>
+This web application empowers users to create an ASCII art from their input. Unleash your creativity by providing input using ASCII characters, and watch as the program transforms it into visually appealing designs. Our user-friendly interface offers exciting options, including Banners, Colors, and the ability to conveniently download your ASCII art. Embrace the world of text-based artistry and bring your imagination to life with our ASCII Art Web Generator!</h4>
+
 ## Run Locally
 
 Clone the project
