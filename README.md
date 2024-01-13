@@ -1,24 +1,23 @@
-## ASCII Art Web Dockerize
+## ASCII Art Web
+Welcome to our ASCII Art Web Generator! 
 
-The program allows users to draw ASCII Art from the input.  
-Users are supposed to input only ASCII characters.  
-Users are given these options: Banners, Colors,and Download of the Ascii Art.
-
+This web application empowers users to create an ASCII art from their input. Unleash your creativity by providing input using ASCII characters, and watch as the program transforms it into visually appealing designs. Our user-friendly interface offers exciting options, including Banners, Colors, and the ability to conveniently download your ASCII art. Embrace the world of text-based artistry and bring your imagination to life with our ASCII Art Web Generator!
 ## Run Locally
 
 Clone the project
 
 ```bash
-git clone https://learn.reboot01.com/git/amali/ascii-art-web-dockerize.git
+git clone https://github.com/amali01/ascii-art-web.git
+
 ```
 
 Go to the project directory
 
 ```bash
-  cd ascii-art-web-dockerize
+  cd ascii-art-web
 ```
 
-**Example how to run the program:**
+**To build docker image and run it:**
 
 _make sure you are in project directory_
 to build the docker image and run the container use
@@ -41,4 +40,4 @@ docker exec -it "CONTAINER ID" bash
 
 ## Authors
 
-- emahfood - amali - ajaberi
+- emahfoodh - amali01 - ajaberi
