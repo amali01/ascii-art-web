@@ -37,6 +37,7 @@ To git the CONTAINER ID use
  ```bash
 docker exec -it "CONTAINER ID" bash
  ```
+ ## Usage
 1. Open http://localhost:8080/ in a browser
 2. Type any text in english layout
 3. Choose the preferred banner,and color.
